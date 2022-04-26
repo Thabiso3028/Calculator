@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background: #fadda5;
+}
 .main{
     position: absolute;
     display: flex;
@@ -15,17 +18,21 @@
     position: absolute;
     width: 300px;
     height:360px;
-    
+    border: 1px solid black;
+    background: #e48541;
+    z-index: 0;
 }
 
 .main .calculator .monitor{
-    
+    border: 1px solid black;
     position: relative;
     margin: 5px 5px;
     height: auto;
+    background-color: white;
+    opacity: 0.8;
 }
 .main .calculator .buttons{
-   
+    border: 1px solid black;
     position: absolute;
     justify-content:  space-around;
     height: auto;
@@ -38,18 +45,22 @@ button{
     height: 30px;
     width: 40px;
     margin: 10px;
+    opacity: 0.8;
 }
 .main .calculator .monitor .input{
     height: 30px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     position: relative;
+    left: 5px;
 }
 .main .calculator .monitor .answer{
     height: 30px;
-    border: 2px solid pink;
+    /*border: 2px solid pink;*/
+    text-align: right;
     position: relative;
-    right:0;
+    right:5px;
 }
-#equals{
-
+output{
+    font-size: x-large;
+    font-weight: 400;
 }
