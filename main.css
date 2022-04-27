@@ -51,16 +51,18 @@ button{
     height: 30px;
     /*border: 2px solid green;*/
     position: relative;
-    left: 5px;
+    
 }
 .main .calculator .monitor .answer{
     height: 30px;
     /*border: 2px solid pink;*/
     text-align: right;
     position: relative;
-    right:5px;
+    
 }
-output{
+input{
     font-size: x-large;
     font-weight: 400;
+    width:100%;
+    border:0;
 }
